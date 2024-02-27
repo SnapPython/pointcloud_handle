@@ -1,0 +1,3 @@
+colcon build
+source install/setup.bash
+ros2 launch multiple_object_tracking_lidar multiple_object_tracking_lidar.launch.py
