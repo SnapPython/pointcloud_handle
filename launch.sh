@@ -1,7 +1,7 @@
 colcon build --symlink-install
 cmds=( "ros2 launch pointcloud_handle get_cloud_launch.py")
 
-cmd=("ros2 launch livox_ros2_driver livox_lidar_launch.py")
+cmd=("ros2 launch livox_ros2_driver livox_lidar_rviz_launch.py")
 
 for cmd in "${cmd[@]}";
 do
